@@ -1,11 +1,10 @@
-package com.food.userservice.service;
+package com.food.service;
 
-import com.food.userservice.model.Customer;
-import com.food.userservice.model.AppUser;
-import com.food.userservice.model.Restaurant;
-import com.food.userservice.repository.AppUserRepository;
-import com.food.userservice.repository.CustomerRepository;
-import com.food.userservice.repository.RestaurantRepository;
+import com.food.model.Customer;
+import com.food.model.Restaurant;
+import com.food.repository.AppUserRepository;
+import com.food.repository.CustomerRepository;
+import com.food.repository.RestaurantRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -15,10 +14,10 @@ import java.util.List;
 public class UserService {
 
     @Autowired
-    private  CustomerRepository customerRepository;
+    private CustomerRepository customerRepository;
 
     @Autowired
-    private  RestaurantRepository restaurantRepository;
+    private RestaurantRepository restaurantRepository;
 
 
     @Autowired

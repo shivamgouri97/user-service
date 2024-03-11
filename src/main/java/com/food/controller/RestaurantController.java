@@ -1,8 +1,7 @@
-package com.food.userservice.controller;
+package com.food.controller;
 
-import com.food.userservice.model.Customer;
-import com.food.userservice.model.Restaurant;
-import com.food.userservice.service.UserService;
+import com.food.model.Restaurant;
+import com.food.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -1,7 +1,6 @@
-package com.food.userservice.repository;
+package com.food.repository;
 
-import com.food.userservice.model.AppUser;
-import com.food.userservice.model.Customer;
+import com.food.model.AppUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface AppUserRepository extends JpaRepository<AppUser, String> {

@@ -1,6 +1,6 @@
-package com.food.userservice.repository;
+package com.food.repository;
 
-import com.food.userservice.model.Customer;
+import com.food.model.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 

@@ -1,6 +1,6 @@
-package com.food.userservice.repository;
+package com.food.repository;
 
-import com.food.userservice.model.Restaurant;
+import com.food.model.Restaurant;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface RestaurantRepository extends JpaRepository<Restaurant, String> {
